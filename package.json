@@ -1,7 +1,7 @@
 {
   "name": "vue-100vh",
   "description": "A Vue component, which solves the 100vh problem in mobile browsers, fork from React component",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "author": "Vladimir Razumnyak <razumnyak.v@gmail.com>",
   "main": "src/vue100vh/index.js",
   "repository": {
@@ -13,13 +13,13 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "vue": "^2.6",
+    "vue": "^3.0",
     "jest-get-type": "^22.4.3"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.5.0",
-    "@vue/cli-service": "^3.5.0",
-    "vue-template-compiler": "^2.5.21"
+    "@vue/cli-service": "^4.5.8",
+    "@vue/compiler-sfc": "^3.0.2"
   },
   "postcss": {
     "plugins": {

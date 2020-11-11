@@ -7,7 +7,7 @@
 import convertStyle from './convertStyle/convertStyle'
 export default {
   name: 'vue100vh',
-  props:['css'],
+  props: ['css'],
   data () {
     return {
       objectStyle: {}
@@ -17,7 +17,7 @@ export default {
     this.updateStyle();
     window.addEventListener('resize', this.updateStyle);
   },
-  destroyed () {
+  unmounted () {
     window.removeEventListener('resize', this.updateStyle);
   },
   methods:{
